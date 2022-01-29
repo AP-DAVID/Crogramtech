@@ -29,7 +29,7 @@ function Landing() {
                     CROGAM.
                   </h1>
                   <p className="mt-4 text-lg text-slate-200">
-                    Let's put our country on the technological map one project at a time!. Come, let's explore our world together.
+                    Let&apos;s put our country on the technological map one project at a time!. Come, let&apos;s explore our world together.
                   </p>
                 </div>
               </div>

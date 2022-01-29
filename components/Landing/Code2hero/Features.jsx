@@ -29,7 +29,7 @@ export default function Features(){
         {
             features.map(feature => (
                 <Card onClick={() => router.push("https://code2hero.vercel.app/")} style={{backgroundColor: 'transparent', borderColor : "#1d4ed8", borderRadius : 30,  width: 350, margin: 5, fontFamily:'Raleway, sans-serif' }} bordered={true} className='shadow-md shadow-xl shadow-blue-500/50 cursor-pointer rounded-xl flex flex-col justify-center items-center' key={feature.id}>
-                    <Image src={feature.image} height='150' width='250' />
+                    <Image alt="Svg Image" src={feature.image} height='150' width='250' />
                     <p className='text-lg text-center mt-4 text-gray-500 font-semibold'>{feature.head}</p>
                     <p className='text-md text-center mt-4 text-gray-500 '>{feature.desc}</p>
                 </Card>
