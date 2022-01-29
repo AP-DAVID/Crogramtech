@@ -38,9 +38,9 @@ function Landing() {
 
         </div>
         <Gamex />
-        <Musco />
         <Code2hero />
         <Sms />
+        <Musco />
         <Form />
      </div>
   )

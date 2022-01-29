@@ -7,7 +7,7 @@ import { faUserAlt, faMusic, faVideo,  faUsers } from "@fortawesome/free-solid-s
 function Musco() {
   const router = useRouter();
   return (
-    <div id="musco" className='mb-20'>
+    <div id="musco" className='mb-20 mt-20'>
         <div className='flex justify-center'>
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 
