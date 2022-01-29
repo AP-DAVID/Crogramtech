@@ -17,7 +17,7 @@ function Sms() {
         </div>
 
         <div className='flex justify-center w-full '>
-            <div className="sm:px-5 ml-7  sm:mr:10  justify-items-stretch sm:gap-5  sm:grid sm:grid:cols-2 md:grid:cols-2 lg:grid-cols-2 xl:grid-cols-2 3xl:flex flex-wrap justify-center">
+            <div className="sm:px-5  sm:mr:10  justify-items-stretch sm:gap-5 space-y-2 sm:space-y-0  sm:grid sm:grid:cols-2 md:grid:cols-2 lg:grid-cols-2 xl:grid-cols-2 3xl:flex flex-wrap justify-center">
                 <Card Icon={faUserAlt} text1="Teacher" text2="Connect with your Administrator, share resources and other valuable functionalities with your students now!"/>
                 <Card Icon={faUsers} text1="Students" text2="Connect with your classmates and teachers via a dashboard!!" />
                 <Card Icon={faDatabase} text1="Administrator" text2="Access to Crud functionality of the web management ecosystem between in the teachers, students and the Administrator"/>

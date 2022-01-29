@@ -19,7 +19,7 @@ function Musco() {
         </div>
 
         <div className='flex cursor-pointer justify-center w-full '>
-            <div onClick={() => router.push("https://muscotest5a.vercel.app/") } className="sm:px-5 ml-7  sm:mr:10  justify-items-stretch sm:gap-5  sm:grid sm:grid:cols-2 md:grid:cols-2 lg:grid-cols-2 xl:grid-cols-2 3xl:flex flex-wrap justify-center">
+            <div onClick={() => router.push("https://muscotest5a.vercel.app/") } className="sm:px-5 sm:mr:10 space-y-2 sm:space-y-0 justify-items-stretch sm:gap-5  sm:grid sm:grid:cols-2 md:grid:cols-2 lg:grid-cols-2 xl:grid-cols-2 3xl:flex flex-wrap justify-center">
                 <Card Icon={faUserAlt} text1="Individual users" text2="Listen to music, post, connect with friends, musical artists, videographers, record labels etc."/>
                 <Card Icon={faUsers} text1="Music Artiste" text2="Upload music, interact with other sections, get paid via streams etc."/>
                 <Card Icon={faVideo} text1="Videographers" text2="Create an account now, connect with other sections, get hired etc."/>
