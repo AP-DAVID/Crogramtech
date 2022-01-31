@@ -35,7 +35,7 @@ function Landing() {
                   </p>
                 </div>
 
-                <div className='flex mt-7 text-center justify-center py-7'>
+                <div className='flex mt-7 sm:mt-2 text-center justify-center py-7'>
                   <Link href="#contact">
                     <h1  className='bg-blue-500 px-4 cursor-pointer hover:scale-105 hover:bg-blue-400 hover:shadow-md hover:shadow-blue-400 py-2 rounded-md text-lg text-white'>
                       {"<>"} Contact
