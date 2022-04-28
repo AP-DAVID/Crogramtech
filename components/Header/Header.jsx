@@ -59,6 +59,8 @@ export default function Header(props) {
               <FontAwesomeIcon icon={faBars} className="text-white "/>
             </button>
           </div>
+
+          
           <div
             className={
               "lg:flex flex-grow items-center bg-slate-900 lg:bg-opacity-0 lg:shadow-none" +
